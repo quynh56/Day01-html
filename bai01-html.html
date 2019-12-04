@@ -2,9 +2,105 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="keyword" content="ABC">
+    <title>bai 01: tiêu đề trang web của tôi</title>
 </head>
 <body>
+<!--trang HTML đầu tiên của tôi
+<h1>Nội dung thẻ h1</h1>-->
+<!--thẻ h1 -h6 heading-->
+<h1>nội dung thẻ h1</h1>
+<h2>nội dung thẻ h2</h2>
+<h3>nội dung thẻ h3</h3>
+<h4>nội dung thẻ h4</h4>
+<h5>nội dung thẻ h5</h5>
+<h6>nội dung thẻ h6</h6>
 
+<!--the p -paragraphp-->
+<p>Nội dung thẻ p1</p>
+<p> Nội dung thẻ p2</p>
+<!--thẻ br -break-->
+<p>Nội dung the p,<br> đoạn sau sẽ bị xuống dòng</p>
+<!--thẻ hr-->
+<hr>
+<!--thẻ i -italic-->
+<i>nội dung sẽ bị in nghiêng thẻ i</i>
+<!--thẻ b - bold-->
+<b> nội dung sẽ bị in đậm thẻ b</b>
+<!--thẻ u -underline-->
+<u> nội dung sẽ bị gạch chân thẻ u</u>
+<!--thẻ div -division là khối chứa các thẻ bên trong -->
+<div>nội dung thẻ div</div>
+<div>
+    <p>nội dung thẻ p</p>
+    <u>thẻ u</u>
+    <div>thẻ div</div>
+</div>
+<!--thẻ span-->
+<span>nội dung bên trong thẻ span</span>
+<!--thẻ img -image-->
+<img src="img01.jpg" alt="chú thích khi ảnh bị lỗi sẽ hiện lên" title="di chuột qua hình ảnh" width="100px" height="50px">
+<!--thẻ liên quan đến bảng-->
+<table border="1" cellspacing="0" cellpadding="10">
+    <tr>
+        <th>tiêu đề cột 1</th>
+        <th>tiêu đề cột 2</th>
+        <th>tiêu đề cột 3</th>
+    </tr>
+    <tr>
+        <td rowspan="2">nội dung cột 1.2</td>
+        <td colspan="2">nội dung cột 2.2</td>
+      <!--  <td>nội dung cột 3.2</td>-->
+
+    </tr>
+    <tr>
+       <!--<td>nội dung cột 1.3</td>-->
+       <td>nội dung cột 2.3</td>
+        <td>nội dung cột 3.3</td>
+    </tr>
+</table>
+<ul>
+    <li>thẻ li thứ nhất</li>
+    <li>thẻ li thứ 2</li>
+</ul>
+<ol>
+    <li>thẻ li thứ nhất</li>
+    <li>thẻ li thứ 2</li>
+</ol>
+<!-- thẻ a -link-->
+<a href="https://google.vn" target="_blank" title="hover qua thẻ a">click để tới trang google trong 1 tab mới</a>
+<!--thẻ button-->
+<button>đây là nút</button>
+<!--thẻ center-->
+<center>nội dung bên trong bị căn giữa</center>
+<!--các thẻ liên quan đến form-->
+<form action="" method="get">
+    <label>tên</label>
+    <input type="text" placeholder="nhập name" name="username" value="">
+    <br>
+    <label>number</label>
+    <input type="number" value="1234">
+    <br>
+    <input type="password" placeholder="nhập password">
+    <br>
+    <input type="date" placeholder="12/4/2019">
+    <br>
+    <input type="file" multiple>
+    <br>
+    <select name="" >
+        <option value="">viet nam</option>
+        <option value="">indonesia</option>
+    </select>
+    <textarea name="" cols="30" rows="10" placeholder="message"></textarea>
+    <br>
+    <!--cần phải set nam giống hệt nhau cho các radio để chức năng radio hoạt động chính xác(chỉ chọn đc 1 )-->
+    <input type="radio" name="gender">nam
+    <input type="radio" name="gender">nữ
+    <input type="radio" name="gender">khác
+    <br>
+    <input type="checkbox">check box 1
+    <input type="checkbox">check box 2
+    <input type="checkbox">check box 3
+</form>
 </body>
 </html>
